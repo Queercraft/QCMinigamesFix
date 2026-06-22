@@ -1,0 +1,22 @@
+name: QCMinigamesFix
+description: $description
+prefix: QCMinigamesFix
+version: '${version}'
+
+main: org.queercraft.QCMinigamesFix.QCMinigamesFix
+api-version: '1.21.11'
+load: STARTUP
+
+authors: [ colserra ]
+website: queercraft.net
+
+commands:
+  qcmf:
+    description: Manage QCMinigamesFix at runtime.
+    usage: /<command> <reload|enable|disable|status>
+    permission: qcminigamesfix.admin
+
+permissions:
+  qcminigamesfix.admin:
+    description: Allows managing QCMinigamesFix settings.
+    default: op

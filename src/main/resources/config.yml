@@ -1,0 +1,9 @@
+# Whether the spectator world restriction is active. Can be toggled at
+# runtime with /qcmf enable, /qcmf disable, or /qcmf status.
+enabled: true
+
+# Worlds in which the spectator menu (target list) is restricted to only
+# teleporting within the same world. Players spectating in a listed world
+# cannot use the in-game spectate menu to jump into a different world.
+restricted-worlds:
+  - games
